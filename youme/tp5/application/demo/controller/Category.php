@@ -7,7 +7,7 @@ use think\Controller;
 
 class Category extends Controller
 {
-    public function index()
+    public function cate()
     {
         return $this->fetch('list');
     }

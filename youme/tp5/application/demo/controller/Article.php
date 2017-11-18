@@ -5,14 +5,10 @@ namespace app\demo\controller;
 use think\Controller;
 // 后面的命名空间则表示起始目录开始的子目录
 
-class Index extends Controller
+class Article extends Controller
 {
-    public function index()
+    public function article()
     {
-        return 'hello ';
-    }
-    public function hello()
-    {
-        return $this->fetch();
+        return $this->fetch('article');
     }
 }
