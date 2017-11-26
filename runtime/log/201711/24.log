@@ -1,0 +1,2796 @@
+---------------------------------------------------------------
+[ 2017-11-24T22:16:46+08:00 ] 0.0.0.0 ::1 GET /admin/login/login
+[ info ] localhost:999/admin/login/login [运行时间：0.466027s][吞吐率：2.15req/s] [内存消耗：2,307.45kb] [文件加载：51]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\admin\controller\LoginController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:16:50+08:00 ] 0.0.0.0 ::1 GET /static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js
+[ info ] localhost:999/static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js [运行时间：0.858049s][吞吐率：1.17req/s] [内存消耗：1,850.47kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'admin.ui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'slimscroll',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:16:51+08:00 ] 0.0.0.0 ::1 GET /captcha.html
+[ info ] localhost:999/captcha.html [运行时间：0.477027s][吞吐率：2.10req/s] [内存消耗：1,880.12kb] [文件加载：42]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\Thankphp\Thinkphp\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:16:52+08:00 ] 0.0.0.0 ::1 GET /static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js
+[ info ] localhost:999/static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js [运行时间：0.859049s][吞吐率：1.16req/s] [内存消耗：1,850.47kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'admin.ui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'slimscroll',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:17:23+08:00 ] 0.0.0.0 ::1 POST /admin/login/login
+[ info ] localhost:999/admin/login/login [运行时间：0.481028s][吞吐率：2.08req/s] [内存消耗：3,591.01kb] [文件加载：61]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'content-length' => '41',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:999',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'feokm',
+)
+[ info ] [ RUN ] app\admin\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\admin\controller\LoginController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:17:28+08:00 ] 0.0.0.0 ::1 GET /admin/login/login
+[ info ] localhost:999/admin/login/login [运行时间：0.464026s][吞吐率：2.16req/s] [内存消耗：2,307.51kb] [文件加载：51]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\admin\controller\LoginController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:17:29+08:00 ] 0.0.0.0 ::1 GET /static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js
+[ info ] localhost:999/static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js [运行时间：0.847048s][吞吐率：1.18req/s] [内存消耗：1,850.64kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'admin.ui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'slimscroll',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:28:40+08:00 ] 0.0.0.0 ::1 POST /admin/login/login
+[ info ] localhost:999/admin/login/login [运行时间：0.495028s][吞吐率：2.02req/s] [内存消耗：3,591.01kb] [文件加载：61]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'content-length' => '41',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:999',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'fe0km',
+)
+[ info ] [ RUN ] app\admin\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\admin\controller\LoginController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:28:45+08:00 ] 0.0.0.0 ::1 GET /admin/login/login
+[ info ] localhost:999/admin/login/login [运行时间：0.459026s][吞吐率：2.18req/s] [内存消耗：2,307.51kb] [文件加载：51]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\admin\controller\LoginController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:28:46+08:00 ] 0.0.0.0 ::1 GET /static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js
+[ info ] localhost:999/static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js [运行时间：0.850048s][吞吐率：1.18req/s] [内存消耗：1,850.64kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'admin.ui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'slimscroll',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:28:55+08:00 ] 0.0.0.0 ::1 POST /admin/login/login
+[ info ] localhost:999/admin/login/login [运行时间：0.512030s][吞吐率：1.95req/s] [内存消耗：3,790.02kb] [文件加载：65]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'content-length' => '41',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:999',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'feqkm',
+)
+[ info ] [ RUN ] app\admin\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\admin\controller\LoginController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin'  AND `password` = 'S4cj77RLvgCEeGK2WujphQ==' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:29:00+08:00 ] 0.0.0.0 ::1 GET /admin/entry/adminindex.html
+[ info ] localhost:999/admin/entry/adminindex.html [运行时间：0.461026s][吞吐率：2.17req/s] [内存消耗：2,314.52kb] [文件加载：52]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'adminindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->adminindex[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\adminindex.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:29:03+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：0.857049s][吞吐率：1.17req/s] [内存消耗：2,281.30kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:29:04+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.853048s][吞吐率：1.17req/s] [内存消耗：2,281.32kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:29:05+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.860049s][吞吐率：1.16req/s] [内存消耗：2,281.30kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:29:07+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：0.872050s][吞吐率：1.15req/s] [内存消耗：2,281.30kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:29:08+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.854048s][吞吐率：1.17req/s] [内存消耗：2,281.32kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:29:09+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.866049s][吞吐率：1.15req/s] [内存消耗：2,281.30kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:29:14+08:00 ] 0.0.0.0 ::1 GET /admin/category/index.html
+[ info ] localhost:999/admin/category/index.html [运行时间：0.879051s][吞吐率：1.14req/s] [内存消耗：3,562.09kb] [文件加载：62]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->index[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: db[C:\Thankphp\Thinkphp\application\admin\model\Category.php:27]
+---------------------------------------------------------------
+[ 2017-11-24T22:31:26+08:00 ] 0.0.0.0 ::1 GET /admin/category/index.html
+[ info ] localhost:999/admin/category/index.html [运行时间：0.895051s][吞吐率：1.12req/s] [内存消耗：3,559.16kb] [文件加载：61]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->index[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->oreder[C:\Thankphp\Thinkphp\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2017-11-24T22:31:40+08:00 ] 0.0.0.0 ::1 GET /admin/category/index.html
+[ info ] localhost:999/admin/category/index.html [运行时间：0.503029s][吞吐率：1.99req/s] [内存消耗：3,765.91kb] [文件加载：62]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->index[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\index.html [ array (
+  0 => 'field',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` ORDER BY sort desc,id [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:31:43+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/util.js [运行时间：0.890051s][吞吐率：1.12req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:31:45+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/resource/hdjs/require.js [运行时间：0.906051s][吞吐率：1.10req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:31:47+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/config.js [运行时间：0.903052s][吞吐率：1.11req/s] [内存消耗：3,551.31kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:31:49+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/util.js [运行时间：0.899051s][吞吐率：1.11req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:31:51+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/resource/hdjs/require.js [运行时间：0.880051s][吞吐率：1.14req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:31:53+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/config.js [运行时间：0.893051s][吞吐率：1.12req/s] [内存消耗：3,551.31kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:33:44+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/8.html
+[ info ] localhost:999/admin/category/addson/cateid/8.html [运行时间：0.509029s][吞吐率：1.96req/s] [内存消耗：3,684.91kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:33:46+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/addson/cateid/resource/hdjs/app/util.js [运行时间：0.501028s][吞吐率：2.00req/s] [内存消耗：3,681.38kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => 'resource',
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:33:47+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/addson/cateid/resource/hdjs/app/config.js [运行时间：0.492028s][吞吐率：2.03req/s] [内存消耗：3,681.39kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => 'resource',
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:33:49+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/addson/cateid/resource/hdjs/require.js [运行时间：0.493029s][吞吐率：2.03req/s] [内存消耗：3,681.38kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => 'resource',
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:33:59+08:00 ] 0.0.0.0 ::1 POST /admin/category/addson/cateid/8.html
+[ info ] localhost:999/admin/category/addson/cateid/8.html [运行时间：0.508029s][吞吐率：1.97req/s] [内存消耗：3,651.39kb] [文件加载：62]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'content-length' => '21',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:999',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'df',
+  'pid' => '8',
+  'sort' => '32',
+  'cateid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] INSERT INTO `cate` (`name` , `pid` , `sort`) VALUES ('df' , 8 , 32) [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:34:03+08:00 ] 0.0.0.0 ::1 GET /admin/category/index.html
+[ info ] localhost:999/admin/category/index.html [运行时间：0.488028s][吞吐率：2.05req/s] [内存消耗：3,766.65kb] [文件加载：62]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->index[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\index.html [ array (
+  0 => 'field',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` ORDER BY sort desc,id [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:34:06+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/util.js [运行时间：0.886051s][吞吐率：1.13req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:34:08+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/resource/hdjs/require.js [运行时间：0.888051s][吞吐率：1.13req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:34:10+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/config.js [运行时间：0.879050s][吞吐率：1.14req/s] [内存消耗：3,551.31kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:34:12+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/util.js [运行时间：0.878050s][吞吐率：1.14req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:34:14+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/resource/hdjs/require.js [运行时间：0.879051s][吞吐率：1.14req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:34:15+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/config.js [运行时间：0.893051s][吞吐率：1.12req/s] [内存消耗：3,551.31kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:34:18+08:00 ] 0.0.0.0 ::1 GET /admin/category/index.html
+[ info ] localhost:999/admin/category/index.html [运行时间：0.507029s][吞吐率：1.97req/s] [内存消耗：3,766.63kb] [文件加载：62]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->index[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\index.html [ array (
+  0 => 'field',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` ORDER BY sort desc,id [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:34:22+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/util.js [运行时间：0.880050s][吞吐率：1.14req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:34:24+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/resource/hdjs/require.js [运行时间：0.893051s][吞吐率：1.12req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:34:25+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/config.js [运行时间：0.895051s][吞吐率：1.12req/s] [内存消耗：3,551.31kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:34:27+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/util.js [运行时间：0.886051s][吞吐率：1.13req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:34:29+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/resource/hdjs/require.js [运行时间：0.890051s][吞吐率：1.12req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:34:30+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/config.js [运行时间：0.886051s][吞吐率：1.13req/s] [内存消耗：3,551.31kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:34:46+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/8.html
+[ info ] localhost:999/admin/category/addson/cateid/8.html [运行时间：0.492029s][吞吐率：2.03req/s] [内存消耗：3,684.91kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:34:49+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/addson/cateid/resource/hdjs/app/util.js [运行时间：0.504029s][吞吐率：1.98req/s] [内存消耗：3,681.38kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => 'resource',
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:34:50+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/addson/cateid/resource/hdjs/require.js [运行时间：0.499029s][吞吐率：2.00req/s] [内存消耗：3,681.38kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => 'resource',
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:34:52+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/addson/cateid/resource/hdjs/app/config.js [运行时间：0.491028s][吞吐率：2.04req/s] [内存消耗：3,681.39kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => 'resource',
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:35:20+08:00 ] 0.0.0.0 ::1 GET /admin/category/index.html
+[ info ] localhost:999/admin/category/index.html [运行时间：0.497028s][吞吐率：2.01req/s] [内存消耗：3,664.23kb] [文件加载：61]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->index[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` ORDER BY sort desc,id [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:37:27+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/8.html
+[ info ] localhost:999/admin/category/addson/cateid/8.html [运行时间：0.501029s][吞吐率：2.00req/s] [内存消耗：3,684.91kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:37:29+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/addson/cateid/resource/hdjs/app/util.js [运行时间：0.494028s][吞吐率：2.02req/s] [内存消耗：3,681.38kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => 'resource',
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:37:30+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/addson/cateid/resource/hdjs/require.js [运行时间：0.507029s][吞吐率：1.97req/s] [内存消耗：3,681.38kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => 'resource',
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:37:31+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/addson/cateid/resource/hdjs/app/config.js [运行时间：0.502029s][吞吐率：1.99req/s] [内存消耗：3,681.39kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => 'resource',
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:37:34+08:00 ] 0.0.0.0 ::1 GET /admin/category/index.html
+[ info ] localhost:999/admin/category/index.html [运行时间：0.506029s][吞吐率：1.98req/s] [内存消耗：3,975.20kb] [文件加载：64]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->index[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\index.html [ array (
+  0 => 'field',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` ORDER BY sort desc,id [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:37:37+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/util.js [运行时间：0.888051s][吞吐率：1.13req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:37:39+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/resource/hdjs/require.js [运行时间：0.875050s][吞吐率：1.14req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:37:40+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/config.js [运行时间：0.893051s][吞吐率：1.12req/s] [内存消耗：3,551.31kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:37:43+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/util.js [运行时间：0.907052s][吞吐率：1.10req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:37:45+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/resource/hdjs/require.js [运行时间：0.878050s][吞吐率：1.14req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:37:46+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/config.js [运行时间：0.882050s][吞吐率：1.13req/s] [内存消耗：3,551.31kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:39:46+08:00 ] 0.0.0.0 ::1 GET /admin/category/index.html
+[ info ] localhost:999/admin/category/index.html [运行时间：0.491028s][吞吐率：2.04req/s] [内存消耗：3,602.68kb] [文件加载：59]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->index[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` ORDER BY sort desc,id [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:40:54+08:00 ] 0.0.0.0 ::1 GET /admin/category/index.html
+[ info ] localhost:999/admin/category/index.html [运行时间：0.505029s][吞吐率：1.98req/s] [内存消耗：3,766.73kb] [文件加载：62]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->index[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\index.html [ array (
+  0 => 'field',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` ORDER BY sort desc,id [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:40:57+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/util.js [运行时间：0.901051s][吞吐率：1.11req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:40:59+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/resource/hdjs/require.js [运行时间：0.879050s][吞吐率：1.14req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:41:01+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/config.js [运行时间：0.881050s][吞吐率：1.14req/s] [内存消耗：3,551.31kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:41:03+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/util.js [运行时间：0.886051s][吞吐率：1.13req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:41:05+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/resource/hdjs/require.js [运行时间：0.895051s][吞吐率：1.12req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:41:06+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/config.js [运行时间：0.873050s][吞吐率：1.15req/s] [内存消耗：3,551.31kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:41:34+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/9.html
+[ info ] localhost:999/admin/category/addson/cateid/9.html [运行时间：0.494028s][吞吐率：2.02req/s] [内存消耗：3,684.91kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:41:38+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/addson/cateid/resource/hdjs/app/util.js [运行时间：0.519030s][吞吐率：1.93req/s] [内存消耗：3,681.38kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/9.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => 'resource',
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:41:39+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/addson/cateid/resource/hdjs/require.js [运行时间：0.490028s][吞吐率：2.04req/s] [内存消耗：3,681.38kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/9.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => 'resource',
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:41:40+08:00 ] 0.0.0.0 ::1 GET /admin/category/addson/cateid/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/addson/cateid/resource/hdjs/app/config.js [运行时间：0.503029s][吞吐率：1.99req/s] [内存消耗：3,681.39kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/9.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => 'resource',
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\addson.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:41:51+08:00 ] 0.0.0.0 ::1 POST /admin/category/addson/cateid/9.html
+[ info ] localhost:999/admin/category/addson/cateid/9.html [运行时间：0.520030s][吞吐率：1.92req/s] [内存消耗：3,651.40kb] [文件加载：62]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'addson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:999',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/9.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'c++',
+  'pid' => '9',
+  'sort' => '32',
+  'cateid' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->addSon[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] INSERT INTO `cate` (`name` , `pid` , `sort`) VALUES ('c++' , 9 , 32) [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:41:56+08:00 ] 0.0.0.0 ::1 GET /admin/category/index.html
+[ info ] localhost:999/admin/category/index.html [运行时间：0.513029s][吞吐率：1.95req/s] [内存消耗：3,767.62kb] [文件加载：62]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/category/addson/cateid/9.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\CategoryController->index[ C:\Thankphp\Thinkphp\application\admin\controller\CategoryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\category\index.html [ array (
+  0 => 'field',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cate` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `cate` ORDER BY sort desc,id [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-24T22:42:00+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/util.js [运行时间：0.899052s][吞吐率：1.11req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:42:01+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/resource/hdjs/require.js [运行时间：0.893051s][吞吐率：1.12req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:42:03+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/config.js [运行时间：0.878051s][吞吐率：1.14req/s] [内存消耗：3,551.31kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:42:05+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/util.js [运行时间：0.889051s][吞吐率：1.12req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:42:06+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/require.js
+[ info ] localhost:999/admin/category/resource/hdjs/require.js [运行时间：0.883051s][吞吐率：1.13req/s] [内存消耗：3,551.30kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-24T22:42:08+08:00 ] 0.0.0.0 ::1 GET /admin/category/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/category/resource/hdjs/app/config.js [运行时间：0.880050s][吞吐率：1.14req/s] [内存消耗：3,551.31kb] [文件加载：60]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ak7mjf6j469eca8iefmmc0hvv7',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

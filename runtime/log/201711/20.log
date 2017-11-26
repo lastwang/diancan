@@ -1,0 +1,3158 @@
+---------------------------------------------------------------
+[ 2017-11-20T21:53:26+08:00 ] 0.0.0.0 ::1 GET /admin/login/login
+[ info ] localhost:999/admin/login/login [运行时间：0.467026s][吞吐率：2.14req/s] [内存消耗：2,485.03kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\admin\controller\LoginController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:53:30+08:00 ] 0.0.0.0 ::1 GET /static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js
+[ info ] localhost:999/static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js [运行时间：0.848048s][吞吐率：1.18req/s] [内存消耗：1,850.15kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'admin.ui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'slimscroll',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:53:31+08:00 ] 0.0.0.0 ::1 GET /captcha.html
+[ info ] localhost:999/captcha.html [运行时间：0.458027s][吞吐率：2.18req/s] [内存消耗：1,880.69kb] [文件加载：42]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\Thankphp\Thinkphp\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:53:32+08:00 ] 0.0.0.0 ::1 GET /static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js
+[ info ] localhost:999/static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js [运行时间：0.858049s][吞吐率：1.17req/s] [内存消耗：1,850.15kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'admin.ui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'slimscroll',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:53:45+08:00 ] 0.0.0.0 ::1 POST /admin/login/login
+[ info ] localhost:999/admin/login/login [运行时间：0.499028s][吞吐率：2.00req/s] [内存消耗：3,958.41kb] [文件加载：67]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:999',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin888',
+  'code' => 'uclkt',
+)
+[ info ] [ RUN ] app\admin\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\admin\controller\LoginController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin'  AND `password` = 'h3vPU8JGuF3VS/uxIpjRSw==' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2017-11-20T21:53:49+08:00 ] 0.0.0.0 ::1 GET /admin/entry/adminindex.html
+[ info ] localhost:999/admin/entry/adminindex.html [运行时间：0.458026s][吞吐率：2.18req/s] [内存消耗：2,509.05kb] [文件加载：54]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'adminindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->adminindex[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\adminindex.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:53:52+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：0.855049s][吞吐率：1.17req/s] [内存消耗：2,276.82kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:53:53+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.869050s][吞吐率：1.15req/s] [内存消耗：2,276.84kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:53:54+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.852049s][吞吐率：1.17req/s] [内存消耗：2,276.82kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:53:57+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：0.858049s][吞吐率：1.17req/s] [内存消耗：2,276.82kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:53:58+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.859049s][吞吐率：1.16req/s] [内存消耗：2,276.84kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:53:59+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.854049s][吞吐率：1.17req/s] [内存消耗：2,276.82kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:54:05+08:00 ] 0.0.0.0 ::1 GET /admin/entry/pass.html
+[ info ] localhost:999/admin/entry/pass.html [运行时间：0.460026s][吞吐率：2.17req/s] [内存消耗：2,508.70kb] [文件加载：54]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->pass[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\pass.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:56:33+08:00 ] 0.0.0.0 ::1 GET /admin/entry/pass.html
+[ info ] localhost:999/admin/entry/pass.html [运行时间：0.487028s][吞吐率：2.05req/s] [内存消耗：2,509.40kb] [文件加载：54]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->pass[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\pass.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:56:36+08:00 ] 0.0.0.0 ::1 GET /admin/entry/adminindex.html
+[ info ] localhost:999/admin/entry/adminindex.html [运行时间：0.448025s][吞吐率：2.23req/s] [内存消耗：2,310.04kb] [文件加载：52]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'adminindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->adminindex[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\adminindex.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:56:37+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：0.866050s][吞吐率：1.15req/s] [内存消耗：2,276.82kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:56:39+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.861049s][吞吐率：1.16req/s] [内存消耗：2,276.84kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:56:40+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.888050s][吞吐率：1.13req/s] [内存消耗：2,276.82kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:56:49+08:00 ] 0.0.0.0 ::1 GET /admin/entry/pass.html
+[ info ] localhost:999/admin/entry/pass.html [运行时间：0.454026s][吞吐率：2.20req/s] [内存消耗：2,310.16kb] [文件加载：52]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->pass[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\pass.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:57:13+08:00 ] 0.0.0.0 ::1 GET /admin/entry/pass.html
+[ info ] localhost:999/admin/entry/pass.html [运行时间：0.454026s][吞吐率：2.20req/s] [内存消耗：2,310.24kb] [文件加载：52]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->pass[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\pass.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T21:59:21+08:00 ] 0.0.0.0 ::1 GET /
+[ info ] localhost:999/ [运行时间：0.453026s][吞吐率：2.21req/s] [内存消耗：1,804.33kb] [文件加载：41]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ C:\Thankphp\Thinkphp\application\index\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:00:27+08:00 ] 0.0.0.0 ::1 GET /admin/Entry/index
+[ info ] localhost:999/admin/Entry/index [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：2,426.78kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Entry',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->index[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:00:37+08:00 ] 0.0.0.0 ::1 GET /static/admin/org/bootstrap-3.3.5-dist/css/bootstrap.min.css
+[ info ] localhost:999/static/admin/org/bootstrap-3.3.5-dist/css/bootstrap.min.css [运行时间：9.720556s][吞吐率：0.10req/s] [内存消耗：1,849.77kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'org',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost:999/admin/Entry/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'dist' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:00:38+08:00 ] 0.0.0.0 ::1 GET /static/admin/org/bootstrap-3.3.5-dist/js/bootstrap.min.js
+[ info ] localhost:999/static/admin/org/bootstrap-3.3.5-dist/js/bootstrap.min.js [运行时间：0.924053s][吞吐率：1.08req/s] [内存消耗：1,849.73kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'org',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/Entry/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'dist' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:00:39+08:00 ] 0.0.0.0 ::1 GET /static/admin/js/jquery-1.11.3.min.js
+[ info ] localhost:999/static/admin/js/jquery-1.11.3.min.js [运行时间：0.801046s][吞吐率：1.25req/s] [内存消耗：1,848.98kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/Entry/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:00:40+08:00 ] 0.0.0.0 ::1 GET /static/admin/css/index.css
+[ info ] localhost:999/static/admin/css/index.css [运行时间：0.945054s][吞吐率：1.06req/s] [内存消耗：1,848.99kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost:999/admin/Entry/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:00:41+08:00 ] 0.0.0.0 ::1 GET /static/admin/css/backTop.css
+[ info ] localhost:999/static/admin/css/backTop.css [运行时间：0.640036s][吞吐率：1.56req/s] [内存消耗：1,848.99kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost:999/admin/Entry/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:00:42+08:00 ] 0.0.0.0 ::1 GET /static/admin/org/bootstrap-3.3.5-dist/js/bootstrap.min.js
+[ info ] localhost:999/static/admin/org/bootstrap-3.3.5-dist/js/bootstrap.min.js [运行时间：0.739042s][吞吐率：1.35req/s] [内存消耗：1,849.73kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'org',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/Entry/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'dist' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:00:47+08:00 ] 0.0.0.0 ::1 GET /static/admin/js/backTop.js
+[ info ] localhost:999/static/admin/js/backTop.js [运行时间：4.616264s][吞吐率：0.22req/s] [内存消耗：1,848.98kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/Entry/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:00:48+08:00 ] 0.0.0.0 ::1 GET /static/admin/css/index.css
+[ info ] localhost:999/static/admin/css/index.css [运行时间：1.497086s][吞吐率：0.67req/s] [内存消耗：1,848.99kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost:999/admin/Entry/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:00:55+08:00 ] 0.0.0.0 ::1 GET /static/admin/images/1.jpg
+[ info ] localhost:999/static/admin/images/1.jpg [运行时间：0.867049s][吞吐率：1.15req/s] [内存消耗：1,849.36kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/Entry/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:00:56+08:00 ] 0.0.0.0 ::1 GET /static/admin/images/2.jpg
+[ info ] localhost:999/static/admin/images/2.jpg [运行时间：0.852048s][吞吐率：1.17req/s] [内存消耗：1,849.36kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/Entry/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:01:21+08:00 ] 0.0.0.0 ::1 GET /admin/Entry/adminindex
+[ info ] localhost:999/admin/Entry/adminindex [运行时间：0.453026s][吞吐率：2.21req/s] [内存消耗：2,310.94kb] [文件加载：52]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Entry',
+    2 => 'adminindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->adminindex[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\adminindex.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:01:25+08:00 ] 0.0.0.0 ::1 GET /admin/Entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/Entry/resource/hdjs/app/util.js [运行时间：0.857049s][吞吐率：1.17req/s] [内存消耗：2,276.82kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/Entry/adminindex',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:01:26+08:00 ] 0.0.0.0 ::1 GET /admin/Entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/Entry/resource/hdjs/require.js [运行时间：0.858049s][吞吐率：1.17req/s] [内存消耗：2,276.84kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/Entry/adminindex',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:01:27+08:00 ] 0.0.0.0 ::1 GET /admin/Entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/Entry/resource/hdjs/app/config.js [运行时间：0.872050s][吞吐率：1.15req/s] [内存消耗：2,276.82kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/Entry/adminindex',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:01:28+08:00 ] 0.0.0.0 ::1 GET /admin/Entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/Entry/resource/hdjs/app/util.js [运行时间：0.861049s][吞吐率：1.16req/s] [内存消耗：2,276.82kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/Entry/adminindex',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:01:30+08:00 ] 0.0.0.0 ::1 GET /admin/Entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/Entry/resource/hdjs/require.js [运行时间：0.857049s][吞吐率：1.17req/s] [内存消耗：2,276.84kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/Entry/adminindex',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:01:31+08:00 ] 0.0.0.0 ::1 GET /admin/Entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/Entry/resource/hdjs/app/config.js [运行时间：0.874050s][吞吐率：1.14req/s] [内存消耗：2,276.82kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/Entry/adminindex',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:01:49+08:00 ] 0.0.0.0 ::1 GET /admin/entry/pass.html
+[ info ] localhost:999/admin/entry/pass.html [运行时间：0.449026s][吞吐率：2.23req/s] [内存消耗：2,310.04kb] [文件加载：52]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/Entry/adminindex',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->pass[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\pass.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:03:59+08:00 ] 0.0.0.0 ::1 GET /admin/entry/pass.html
+[ info ] localhost:999/admin/entry/pass.html [运行时间：0.470027s][吞吐率：2.13req/s] [内存消耗：2,509.41kb] [文件加载：54]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/Entry/adminindex',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->pass[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\pass.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:04:01+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：0.856049s][吞吐率：1.17req/s] [内存消耗：2,276.88kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:04:04+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.855049s][吞吐率：1.17req/s] [内存消耗：2,276.91kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:04:05+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.857049s][吞吐率：1.17req/s] [内存消耗：2,276.88kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:04:06+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：0.854049s][吞吐率：1.17req/s] [内存消耗：2,276.88kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:04:08+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.856049s][吞吐率：1.17req/s] [内存消耗：2,276.91kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:04:09+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.854049s][吞吐率：1.17req/s] [内存消耗：2,276.88kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:06:43+08:00 ] 0.0.0.0 ::1 GET /admin/login/login
+[ info ] localhost:999/admin/login/login [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：2,306.65kb] [文件加载：51]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\admin\controller\LoginController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:06:49+08:00 ] 0.0.0.0 ::1 GET /static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js
+[ info ] localhost:999/static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js [运行时间：5.839334s][吞吐率：0.17req/s] [内存消耗：1,849.78kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'admin.ui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'slimscroll',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:06:50+08:00 ] 0.0.0.0 ::1 GET /captcha.html
+[ info ] localhost:999/captcha.html [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：1,880.32kb] [文件加载：42]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\Thankphp\Thinkphp\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:07:13+08:00 ] 0.0.0.0 ::1 GET /static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js
+[ info ] localhost:999/static/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js [运行时间：23.617351s][吞吐率：0.04req/s] [内存消耗：1,849.78kb] [文件加载：43]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'admin.ui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'slimscroll',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:07:38+08:00 ] 0.0.0.0 ::1 POST /admin/login/login
+[ info ] localhost:999/admin/login/login [运行时间：6.334363s][吞吐率：0.16req/s] [内存消耗：3,781.43kb] [文件加载：65]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:999',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin888',
+  'code' => 'f8eij',
+)
+[ info ] [ RUN ] app\admin\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\admin\controller\LoginController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin'  AND `password` = 'h3vPU8JGuF3VS/uxIpjRSw==' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-11-20T22:07:41+08:00 ] 0.0.0.0 ::1 GET /admin/entry/adminindex.html
+[ info ] localhost:999/admin/entry/adminindex.html [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：2,508.75kb] [文件加载：54]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'adminindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/login/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->adminindex[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\adminindex.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:08:04+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：23.023317s][吞吐率：0.04req/s] [内存消耗：2,276.52kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:08:06+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：1.684096s][吞吐率：0.59req/s] [内存消耗：2,276.54kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:08:09+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：2.728156s][吞吐率：0.37req/s] [内存消耗：2,276.52kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:08:11+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：2.114121s][吞吐率：0.47req/s] [内存消耗：2,276.52kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:08:12+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.746043s][吞吐率：1.34req/s] [内存消耗：2,276.54kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:08:13+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.668038s][吞吐率：1.50req/s] [内存消耗：2,276.52kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:08:18+08:00 ] 0.0.0.0 ::1 GET /admin/entry/pass.html
+[ info ] localhost:999/admin/entry/pass.html [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,309.80kb] [文件加载：52]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/adminindex.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->pass[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\pass.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:13:21+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：302.319292s][吞吐率：0.00req/s] [内存消耗：2,276.52kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:13:23+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：1.877107s][吞吐率：0.53req/s] [内存消耗：2,276.54kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:13:33+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：10.363593s][吞吐率：0.10req/s] [内存消耗：2,276.52kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:15:33+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：118.953804s][吞吐率：0.01req/s] [内存消耗：2,279.44kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:15:34+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：1.224070s][吞吐率：0.82req/s] [内存消耗：2,276.54kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:15:35+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.884051s][吞吐率：1.13req/s] [内存消耗：2,276.52kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:15:40+08:00 ] 0.0.0.0 ::1 GET /admin/entry/pass.html
+[ info ] localhost:999/admin/entry/pass.html [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,309.68kb] [文件加载：52]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->pass[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\pass.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:15:50+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：9.386537s][吞吐率：0.11req/s] [内存消耗：2,276.52kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:15:51+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.808046s][吞吐率：1.24req/s] [内存消耗：2,276.54kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:15:52+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.918052s][吞吐率：1.09req/s] [内存消耗：2,276.52kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:15:53+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：1.004057s][吞吐率：1.00req/s] [内存消耗：2,276.52kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:16:26+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：33.069891s][吞吐率：0.03req/s] [内存消耗：2,276.54kb] [文件加载：53]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:16:27+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：2,229.23kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:16:33+08:00 ] 0.0.0.0 ::1 GET /admin/entry/pass.html
+[ info ] localhost:999/admin/entry/pass.html [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,309.84kb] [文件加载：52]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->pass[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\pass.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:16:33+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：2,229.23kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:16:33+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,229.26kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:16:33+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：2,229.23kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:16:38+08:00 ] 0.0.0.0 ::1 GET /admin/entry/pass.html
+[ info ] localhost:999/admin/entry/pass.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：2,309.84kb] [文件加载：52]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->pass[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\pass.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:16:39+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,229.23kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:16:39+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：2,229.26kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:16:39+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,229.23kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:16:55+08:00 ] 0.0.0.0 ::1 GET /admin/entry/pass.html
+[ info ] localhost:999/admin/entry/pass.html [运行时间：0.453026s][吞吐率：2.21req/s] [内存消耗：2,310.41kb] [文件加载：52]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->pass[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\pass.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:16:57+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.450025s][吞吐率：2.22req/s] [内存消耗：2,229.63kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:16:59+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：0.448026s][吞吐率：2.23req/s] [内存消耗：2,229.60kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:17:00+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.453026s][吞吐率：2.21req/s] [内存消耗：2,229.60kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:17:30+08:00 ] 0.0.0.0 ::1 GET /admin/entry/pass.html
+[ info ] localhost:999/admin/entry/pass.html [运行时间：0.468026s][吞吐率：2.14req/s] [内存消耗：2,508.60kb] [文件加载：54]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->pass[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\pass.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:17:33+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：0.452026s][吞吐率：2.21req/s] [内存消耗：2,229.60kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:17:34+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.456026s][吞吐率：2.19req/s] [内存消耗：2,229.63kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:17:34+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.456026s][吞吐率：2.19req/s] [内存消耗：2,229.60kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:31:12+08:00 ] 0.0.0.0 ::1 GET /admin/entry/pass.html
+[ info ] localhost:999/admin/entry/pass.html [运行时间：0.469027s][吞吐率：2.13req/s] [内存消耗：2,510.31kb] [文件加载：54]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'pass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->pass[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\pass.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:31:15+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/util.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/util.js [运行时间：0.454026s][吞吐率：2.20req/s] [内存消耗：2,229.60kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:31:16+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/require.js
+[ info ] localhost:999/admin/entry/resource/hdjs/require.js [运行时间：0.458026s][吞吐率：2.18req/s] [内存消耗：2,229.63kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'require.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-20T22:31:17+08:00 ] 0.0.0.0 ::1 GET /admin/entry/resource/hdjs/app/config.js
+[ info ] localhost:999/admin/entry/resource/hdjs/app/config.js [运行时间：0.448026s][吞吐率：2.23req/s] [内存消耗：2,229.60kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'resource',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:999',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:999/admin/entry/pass.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-99d72577=7787e8ea-2175-478b-bf8a-21fa804d55a1; PHPSESSID=ls4bh60b9fleur3j6k2lflmml8',
+)
+[ info ] [ PARAM ] array (
+  'hdjs' => 'app',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->resource[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ LOG ] INIT File

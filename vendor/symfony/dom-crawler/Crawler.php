@@ -20,9 +20,6 @@ use Symfony\Component\CssSelector\CssSelectorConverter;
  */
 class Crawler extends \SplObjectStorage
 {
-    /**
-     * @var string The current URI
-     */
     protected $uri;
 
     /**
@@ -53,14 +50,14 @@ class Crawler extends \SplObjectStorage
     private $isHtml = true;
 
     /**
-     * @param mixed  $node       A Node to use as the base for the crawling
-     * @param string $currentUri The current URI
-     * @param string $baseHref   The base href value
+     * @param mixed  $node     A Node to use as the base for the crawling
+     * @param string $uri      The current URI
+     * @param string $baseHref The base href value
      */
-    public function __construct($node = null, $currentUri = null, $baseHref = null)
+    public function __construct($node = null, $uri = null, $baseHref = null)
     {
-        $this->uri = $currentUri;
-        $this->baseHref = $baseHref ?: $currentUri;
+        $this->uri = $uri;
+        $this->baseHref = $baseHref ?: $uri;
 
         $this->add($node);
     }
@@ -682,7 +679,7 @@ class Crawler extends \SplObjectStorage
     public function selectButton($value)
     {
         $translate = 'translate(@type, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz")';
-        $xpath = sprintf('descendant-or-self::input[((contains(%s, "submit") or contains(%s, "button")) and contains(concat(\' \', normalize-space(string(@value)), \' \'), %s)) ', $translate, $translate, static::xpathLiteral(' '.$value.' ')).
+        $xpath = sprintf('descendant-or-self::input[((contains(%s, "submit") or contains(%1$s, "button")) and contains(concat(\' \', normalize-space(string(@value)), \' \'), %s)) ', $translate, static::xpathLiteral(' '.$value.' ')).
                          sprintf('or (contains(%s, "image") and contains(concat(\' \', normalize-space(string(@alt)), \' \'), %s)) or @id=%s or @name=%s] ', $translate, static::xpathLiteral(' '.$value.' '), static::xpathLiteral($value), static::xpathLiteral($value)).
                          sprintf('| descendant-or-self::button[contains(concat(\' \', normalize-space(string(.)), \' \'), %s) or @id=%s or @name=%s]', static::xpathLiteral(' '.$value.' '), static::xpathLiteral($value), static::xpathLiteral($value));
 
