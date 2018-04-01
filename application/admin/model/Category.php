@@ -5,6 +5,7 @@ namespace app\admin\model;
 use think\Model;
 use app\admin\validate;
 use houdunwang\arr\Arr;
+use think\Loader;
 
 class Category extends Model
 {
@@ -78,15 +79,35 @@ class Category extends Model
     public function edit($data)
     {
         // halt($data);
-        $result = $this->validate(true)->save($data,[$this->pk=>$data['id']]);
-        // halt($result);
-        if($result)
+        $validate=Loader::validate('Category');
+        // $result = $this->validate(true)->save($data,[$this->pk=>$data['id']]);
+        if(!$validate->check($data))
         {
-            return ['valid'=>1,'msg'=>'更新成功'];
+            return ['valid'=>0,'msg'=>$validate->getError()];
+        }
+        if($this->update($data,[$this->pk=>$data['id']]))
+        {
+            return ['valid'=>1,'msg'=>'栏目更新成功'];
         }
         else
         {
             return ['valid'=>0,'msg'=>$this->getError()];
+        }
+    }
+
+    public function del($cate_id)
+    {
+        //获取当前要删除的数据的pid
+        $cate_pid=$this->where('id',$cate_id)->value('pid');
+        //要把当前删除的数据的子集的pid改为删除数据的pid
+        $pid=$this->where('pid',$cate_id)->update(['pid'=>$cate_pid]);
+        if(Category::destroy($cate_id))
+        {
+            return ['valid'=>1,'msg'=>'删除成功'];
+        }
+        else
+        {
+            return ['valid'=>0,'msg'=>'删除失败'];
         }
     }
 }

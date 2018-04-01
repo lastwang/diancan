@@ -1,10 +1,10 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"C:\Thankphp\Thinkphp\public/../application/admin\view\login\index.html";i:1511098839;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"C:\Thankphp\Thinkphp\public/../application/admin\view\login\index.html";i:1522567368;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" class="bg-dark">
 
 <head>
     <meta charset="utf-8" />
-    <title>后盾网武斌博客网后台登陆</title>
+    <title>在线点餐后台管理</title>
     <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link href="__STATIC__/admin/bootstrap-3.3.0-dist/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +20,7 @@
 <body class="">
     <section id="content" class="m-t-lg wrapper-md animated fadeInUp">
         <div class="container aside-xxl">
-            <a class="navbar-brand block" href="">后盾网武斌博客网后台管理</a>
+            <a class="navbar-brand block" href="">在线点餐后台管理</a>
             <section class="panel panel-default bg-white m-t-lg">
                 <header class="panel-heading text-center">
                     <strong>管理员后台登陆</strong>
@@ -48,7 +48,7 @@
     <footer id="footer">
         <div class="text-center padder">
             <p>
-                <small>Powered By houdunwang.com<br> copyright &copy; 2017</small>
+                <small>Powered By wang<br> copyright &copy; 2018</small>
             </p>
         </div>
     </footer>
@@ -57,7 +57,7 @@
     <script src="__STATIC__/admin/admin.ui/js/bootstrap.js"></script>
     <!-- App -->
     <script src="__STATIC__/admin/admin.ui/js/app.js"></script>
-    <script src="__STATIC__/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js"></script>
+    <!-- <script src="__STATIC__/admin/admin.ui/js/slimscroll/jquery.slimscroll.min.js"></script> -->
     <script src="__STATIC__/admin/admin.ui/js/app.plugin.js"></script>
 </body>
 

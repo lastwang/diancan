@@ -1,0 +1,24 @@
+{extend name='base'}{block name='content'}
+<style>
+    img {
+        width: 100%
+    }
+</style>
+<article>
+    <div class="_head">
+        <h1>{$articleData['title']}</h1>
+        <span>
+        作者：
+        <a href="">{$articleData['author']}</a>
+        </span> •
+        <!--pubdate表⽰示发布⽇日期-->
+        <time pubdate="pubdate" datetime="{$articleData['sendtime']}">{$articleData['sendtime']}</time>
+    </div>
+    <div class="_digest">
+        {$articleData['content']}
+    </div>
+    <div class="_footer">
+        <i class="glyphicon glyphicon-tags"></i> {foreach name='articleData["tag"]' item='vo'}
+        <a href="{:url('index/lists/index',['tag_id'=>$vo['tagid']])}">{$vo['tagname']}</a>、 {/foreach}
+    </div>
+</article>{/block}

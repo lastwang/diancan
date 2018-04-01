@@ -1,0 +1,67 @@
+{extend name='base'/} {block name='content'}
+<ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
+    <li>
+        <a href=""><i class="fa fa-cogs"></i>
+            站点管理</a>
+    </li>
+    <li class="active">
+        <a href="">网站配置</a>
+    </li>
+</ol>
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active"><a href="#tab1">网站配置</a></li>
+</ul>
+<form action="" method="post">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th width="5%">编号</th>
+                        <th>配置名称</th>
+                        <th width="20%">配置值</th>
+                        <th>描述</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {foreach name='field' item='vo' key='k'}
+                    <tr>
+                        <td>{++$k}</td>
+                        <td>{$vo['websetName']}</td>
+                        <td>
+                            <input type="text" onblur="chang(this,{$vo['websetValue']},{$vo['websetId']})" class="form-control" value="{$vo['websetValue']}">
+                        </td>
+                        <td>{$vo['websetdes']}</td>
+                    </tr>
+                    {/foreach}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</form>
+<div class="pagination pagination-sm pull-right">
+    {$field->render()}
+</div>
+<script>
+    function chang(obj, websetValue, websetId) {
+        var text1 = $(obj).val();
+        if (websetValue == text1) {
+            return;
+        }
+        $.post("{:url('admin/webset/chang')}", {
+            'websetId': websetId,
+            'websetValue': text1
+        }, function(res) {
+            if (res.code) {
+                require(["hdjs"], function(hdjs) {
+                    hdjs.message(res.msg, 'reflesh', 'success');
+                })
+            } else {
+                require(["hdjs"], function(hdjs) {
+                    hdjs.message(res.msg, '', 'error');
+                })
+            }
+        })
+    }
+</script>
+{/block}

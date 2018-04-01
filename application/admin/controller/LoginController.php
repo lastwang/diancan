@@ -5,7 +5,7 @@ namespace app\admin\controller;
 use think\Controller;
 use app\admin\model\Admin;
 // use houdunwang\crypt\Crypt;
-
+//这个是控制器
 class LoginController extends Controller
 {
     //登入
@@ -18,7 +18,7 @@ class LoginController extends Controller
         // dump($data);
         if(request()->isPost())
         {
-            $res=(new Admin())->login(input('post.'));
+            $res=(new Admin())->login(input('post.'));//我把验证放在login这个方法里new Admin()是model的实例化
             if($res['valid'])
             {
                 $this->success($res['msg'],'admin/Entry/adminindex');
@@ -26,6 +26,7 @@ class LoginController extends Controller
             }
             else{
                 $this->error($res['msg']);
+                exit;
             }
             // halt($_POST);
         }

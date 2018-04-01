@@ -121,7 +121,18 @@ class CategoryController extends Controller
 
     public function del()
     {
-        halt('sd');
+        $res=$this->db->del(input('get.cate_id'));
+        if($res['valid'])
+        {
+            return $this->success($res['msg'],'index');
+            exit;
+        }
+        else
+        {
+            return $this->error($res['msg']);
+            exit;
+        }
+        // halt(input('get.cate_id'));
         // $data=input('param.cate_id');
         // dump($data);
     }

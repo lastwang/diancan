@@ -11,10 +11,10 @@ class EntryController extends CommonController
     {
         return $this->fetch();
     }
-    public function index()
-    {
-        return $this->fetch();
-    }
+    // public function index()
+    // {
+    //     return $this->fetch();
+    // }
     /**
      * 修改密码
      */

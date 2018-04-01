@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:72:"C:\Thankphp\Thinkphp\public/../application/admin\view\category\edit.html";i:1511660218;s:63:"C:\Thankphp\Thinkphp\public/../application/admin\view\base.html";i:1511665508;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:72:"C:\Thankphp\Thinkphp\public/../application/admin\view\category\edit.html";i:1511660218;s:63:"C:\Thankphp\Thinkphp\public/../application/admin\view\base.html";i:1512540422;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -109,9 +109,9 @@
                         </a>
                     </div>
                     <ul class="list-group menus collapse in" id="collapseExample2">
-                        <a href="" class="list-group-item">
+                        <a href="<?php echo url('admin/Tag/index'); ?>" class="list-group-item">
                             <i class="fa fa-tags" aria-hidden="true"></i>
-                            <span class="pull-right" href=""></span> 标签列表
+                            <span class="pull-right"></span> 标签列表
                         </a>
                     </ul>
                     <!--标签管理 end-->
@@ -124,7 +124,7 @@
                         </a>
                     </div>
                     <ul class="list-group menus collapse in" id="collapseExample3">
-                        <a href="" class="list-group-item">
+                        <a href="<?php echo url('admin/article/index'); ?>" class="list-group-item">
                             <i class="fa fa-align-center" aria-hidden="true"></i>
                             <span class="pull-right" href=""></span> 文章列表
                         </a>

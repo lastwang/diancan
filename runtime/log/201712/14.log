@@ -1,0 +1,384 @@
+---------------------------------------------------------------
+[ 2017-12-14T12:34:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/
+[ info ] www.blog.wang.com/index/login/ [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：1,583.03kb] [文件加载：52]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bf5b4f36371b120b4279881e456bad4a=1512214604,1513077412',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.blog.wang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\index\controller\LoginController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-14T12:34:12+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171208%EF%BF%BDa09c14124826f178d7def2fc16.jpg
+[ info ] www.blog.wang.com/uploads/20171208%EF%BF%BDa09c14124826f178d7def2fc16.jpg [运行时间：0.038003s][吞吐率：26.31req/s] [内存消耗：1,198.94kb] [文件加载：42]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171208�a09c14124826f178d7def2fc16.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bf5b4f36371b120b4279881e456bad4a=1512214604,1513077412; PHPSESSID=r4jdqpgjjpvjpl73brnilo4he6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.wang.com/index/login/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.blog.wang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-14T16:06:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/
+[ info ] www.blog.wang.com/index/login/ [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：1,432.64kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bf5b4f36371b120b4279881e456bad4a=1512214604,1513077412',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.blog.wang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\index\controller\LoginController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-14T16:06:55+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171208%EF%BF%BDa09c14124826f178d7def2fc16.jpg
+[ info ] www.blog.wang.com/uploads/20171208%EF%BF%BDa09c14124826f178d7def2fc16.jpg [运行时间：0.058004s][吞吐率：17.24req/s] [内存消耗：1,198.94kb] [文件加载：42]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171208�a09c14124826f178d7def2fc16.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bf5b4f36371b120b4279881e456bad4a=1512214604,1513077412; PHPSESSID=i9ndbiflqlt2hpovho7apcnd95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.wang.com/index/login/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.blog.wang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-14T16:07:06+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.blog.wang.com/ [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：1,413.92kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bf5b4f36371b120b4279881e456bad4a=1512214604,1513077412; PHPSESSID=i9ndbiflqlt2hpovho7apcnd95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.blog.wang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\admin\controller\LoginController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-14T16:07:06+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.blog.wang.com/captcha.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：1,218.41kb] [文件加载：41]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bf5b4f36371b120b4279881e456bad4a=1512214604,1513077412; PHPSESSID=i9ndbiflqlt2hpovho7apcnd95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.wang.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.blog.wang.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\Thankphp\Thinkphp\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-14T16:07:14+08:00 ] 127.0.0.1 127.0.0.1 POST /
+[ info ] www.blog.wang.com/ [运行时间：0.084005s][吞吐率：11.90req/s] [内存消耗：2,323.35kb] [文件加载：64]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bf5b4f36371b120b4279881e456bad4a=1512214604,1513077412; PHPSESSID=i9ndbiflqlt2hpovho7apcnd95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.wang.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.blog.wang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'www.blog.wang.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin888',
+  'code' => 'ccwwj',
+)
+[ info ] [ RUN ] app\admin\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\admin\controller\LoginController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin'  AND `password` = 'h3vPU8JGuF3VS/uxIpjRSw==' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-12-14T16:07:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/entry/adminindex.html
+[ info ] www.blog.wang.com/admin/entry/adminindex.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,429.68kb] [文件加载：51]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'adminindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bf5b4f36371b120b4279881e456bad4a=1512214604,1513077412; PHPSESSID=i9ndbiflqlt2hpovho7apcnd95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.wang.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.blog.wang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->adminindex[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\adminindex.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-14T16:30:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/entry/adminindex.html
+[ info ] www.blog.wang.com/admin/entry/adminindex.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,430.37kb] [文件加载：51]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'entry',
+    2 => 'adminindex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bf5b4f36371b120b4279881e456bad4a=1512214604,1513077412; PHPSESSID=i9ndbiflqlt2hpovho7apcnd95',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.blog.wang.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.blog.wang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\EntryController->adminindex[ C:\Thankphp\Thinkphp\application\admin\controller\EntryController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\entry\adminindex.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-14T19:37:27+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.blog.wang.com/ [运行时间：0.058004s][吞吐率：17.24req/s] [内存消耗：1,413.87kb] [文件加载：50]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bf5b4f36371b120b4279881e456bad4a=1512644392',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.blog.wang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\LoginController->login[ C:\Thankphp\Thinkphp\application\admin\controller\LoginController.php ]
+[ info ] [ VIEW ] C:\Thankphp\Thinkphp\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-14T19:37:28+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.blog.wang.com/captcha.html [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,218.33kb] [文件加载：41]
+[ info ] [ LANG ] C:\Thankphp\Thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_bf5b4f36371b120b4279881e456bad4a=1512644392',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.blog.wang.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.blog.wang.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\Thankphp\Thinkphp\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

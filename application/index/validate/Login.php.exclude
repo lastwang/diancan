@@ -1,0 +1,25 @@
+<?php
+namespace app\index\validate;
+
+use think\Validate;
+
+class Login extends Validate
+{//,'邮箱不能为空|邮箱格式不正确''密码不能为空|密码必须6位以上'
+    protected $rule = [
+        'useremail' =>'require|email',
+        'password' => 'require|min:6'
+    ];
+    protected $message=[
+        'useremail.require'=>'email不能为空',
+        'useremail.email'=>'邮箱格式不正确',
+        'password.require'=>'密码不能为空',
+        'password.min'=>'密码必须6位以上'
+    ];
+    /**
+     * 自定义验证
+     */
+    // protected function checkEmail()
+    // {
+    //     \halt('dsa');
+    // }
+}

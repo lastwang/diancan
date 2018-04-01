@@ -1,0 +1,61 @@
+{extend name='base'/} {block name='content'}
+<ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
+    <li>
+        <a href="">
+            <i class="fa fa-cogs"></i> 标签管理
+        </a>
+    </li>
+    <li class="active">
+        <a href="">标签列表</a>
+    </li>
+</ol>
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active"><a href="">标签列表</a></li>
+    <li><a href="{:url('admin/tag/store')}">添加标签</a></li>
+</ul>
+<form action="" method="post">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th width="80">编号</th>
+                        <th>标签名</th>
+                        <th width="200">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {foreach name='field' key='key' item='vo'}
+                    <tr>
+                        <td>{++$key}</td>
+                        <td>{$vo['tagname']}</td>
+                        <td>
+                            <div class="btn-group">
+                                <button data-toggle="dropdown" class="btn btn-primary btn-xs dropdown-toggle">操作 <span class="caret"></span></button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="{:url('admin/tag/store',['tagid'=>$vo['tagid']])}">编辑</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="javascript:;" onclick="del({$vo['tagid']})">删除</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    {/foreach}
+                </tbody>
+            </table>
+            {$page}
+        </div>
+    </div>
+</form>
+<div class="pagination pagination-sm pull-right">
+</div>
+<script>
+    function del(tag_id) {
+        require(['hdjs'], function(hdjs) {
+            hdjs.confirm('确定删除吗?', function() {
+                window.location.href = "{:url('admin/Tag/pass')}" + "?tag_id=" + tag_id;
+            })
+        })
+    }
+</script>
+{/block}

@@ -35,7 +35,8 @@
                                     <li><a href="{:url('addSon',['cateid'=>$vo['id']])}">添加子类</a></li>
                                     <li><a href="{:url('edit',['cateid'=>$vo['id']])}">编辑</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="javascript:;" onclick="del({$vo['id']})">删除</a></li>
+                                    <!-- <li><a href="{:url('del',['cateid'=>$vo['id']])}" onclick="del()">删除</a></li> -->
+                                    <li><a href="javascript:void(0);" onclick="del({$vo['id']})">删除</a></li>
                                 </ul>
                             </div>
                         </td>
@@ -52,9 +53,8 @@
     function del(cate_id) {
         require(['hdjs'], function(hdjs) {
             hdjs.confirm('确定删除吗?', function() {
-                // alert('点击确定后执行的回调函数');
-                location.href = "{:url('del')}";
-                alert(location.href);
+                window.location.href = "{:url('admin/Category/del')}" + "?cate_id=" + cate_id;
+                // window.location.reload();//刷新；
             })
         })
     }

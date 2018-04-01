@@ -9,7 +9,7 @@ use think\Validate;
 
 class Admin extends Model
 {
-    //
+    //这里是model
     protected $name="admin";
     protected $pk="id";
 
