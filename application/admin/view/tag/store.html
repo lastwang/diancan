@@ -2,42 +2,42 @@
 <ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
     <li>
         <a href="">
-            <i class="fa fa-cogs"></i> 标签管理
+            <i class="fa fa-cogs"></i> 菜风格管理
         </a>
     </li>
     {if condition="input('param.tagid')!=null"}
     <li class="active">
-        <a href="">编辑标签</a>
+        <a href="">编辑菜风格</a>
     </li>
     {else/}
     <li class="active">
-        <a href="">添加标签</a>
+        <a href="">添加菜风格</a>
     </li>
     {/if}
 
 </ol>
 <ul class="nav nav-tabs" role="tablist">
-    <li><a href="{:url('admin/tag/index')}">标签列表</a></li>
+    <li><a href="{:url('admin/tag/index')}">菜风格列表</a></li>
     {if condition="input('param.tagid')!=null"}
     <li class="active">
-        <a href="">编辑标签</a>
+        <a href="">编辑菜风格</a>
     </li>
     {else/}
     <li class="active">
-        <a href="">添加标签</a>
+        <a href="">添加菜风格</a>
     </li>
     {/if}
 </ul>
 <form class="form-horizontal" id="form" action="" method="post">
     <div class="panel panel-default">
         <div class="panel-heading">
-            <h3 class="panel-title">标签列表</h3>
+            <h3 class="panel-title">菜风格列表</h3>
         </div>
         <div class="panel-body">
             <div class="form-group">
-                <label for="" class="col-sm-2 control-label">标签名称</label>
+                <label for="" class="col-sm-2 control-label">菜风格名称</label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control" placeholder="标签名称" name="tagname" value="{$oldDate['tagname']}">
+                    <input type="text" class="form-control" placeholder="菜风格名称" name="tagname" value="{$oldDate['tagname']}">
                 </div>
             </div>
         </div>

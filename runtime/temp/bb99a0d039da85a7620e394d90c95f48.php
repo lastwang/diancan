@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:73:"C:\Thankphp\Thinkphp\public/../application/admin\view\category\index.html";i:1515405279;s:63:"C:\Thankphp\Thinkphp\public/../application/admin\view\base.html";i:1522568921;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:73:"C:\Thankphp\Thinkphp\public/../application/admin\view\category\index.html";i:1523280457;s:63:"C:\Thankphp\Thinkphp\public/../application/admin\view\base.html";i:1523283296;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -94,7 +94,7 @@
                         </a>
                     </div>
                     <ul class="list-group menus collapse in" id="collapseExample">
-                        <a href="<?php echo url('admin/category/index'); ?>" class="list-group-item">
+                        <a href="<?php echo url('admin/vegetable/index'); ?>" class="list-group-item">
                             <i class="fa fa-certificate" aria-hidden="true"></i>
                             <span class="pull-right" href=""></span> 菜列表
                         </a>
@@ -204,7 +204,7 @@
                                     <li><a href="<?php echo url('addSon',['cateid'=>$vo['id']]); ?>">添加子类</a></li>
                                     <li><a href="<?php echo url('edit',['cateid'=>$vo['id']]); ?>">编辑</a></li>
                                     <li class="divider"></li>
-                                    <!-- <li><a href="<?php echo url('del',['cateid'=>$vo['id']]); ?>" onclick="del()">删除</a></li> -->
+                                    <!-- <li><a href="" onclick="del()">删除</a></li> -->
                                     <li><a href="javascript:void(0);" onclick="del(<?php echo $vo['id']; ?>)">删除</a></li>
                                 </ul>
                             </div>

@@ -58,9 +58,8 @@ class Article extends Model
     public function getAll($isRecycle)
     {
         $data = db('article')->alias('a')
-            ->join('cate c','a.cate_id=c.id')
             ->where('a.recovery',$isRecycle)
-            ->field('a.articleid,a.title,a.author,a.sort,a.sendtime,a.updatetime,c.name')
+            ->field('a.articleid,a.title,a.thumb,a.author,a.sort,a.sendtime,a.updatetime')
             ->order('a.sort,a.sendtime,a.articleid')
             ->paginate(5);
         return $data;

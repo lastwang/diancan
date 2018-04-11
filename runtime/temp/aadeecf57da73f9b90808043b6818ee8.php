@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"C:\Thankphp\Thinkphp\public/../application/admin\view\webset\index.html";i:1515667974;s:63:"C:\Thankphp\Thinkphp\public/../application/admin\view\base.html";i:1522568921;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"C:\Thankphp\Thinkphp\public/../application/admin\view\webset\index.html";i:1523422639;s:63:"C:\Thankphp\Thinkphp\public/../application/admin\view\base.html";i:1523422569;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -86,24 +86,24 @@
         <div class="row">
             <div class="col-xs-12 col-sm-3 col-lg-2 left-menu">
                 <div class="panel panel-default" id="menus">
-                    <!--菜列表-->
+                    <!--已处理订单-->
                     <div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="border-top: 1px solid #ddd;border-radius: 0%">
-                        <h4 class="panel-title">菜列表</h4>
+                        <h4 class="panel-title">已处理订单</h4>
                         <a class="panel-collapse" data-toggle="collapse" href="#collapseExample" aria-expanded="true">
                             <i class="fa fa-chevron-circle-down"></i>
                         </a>
                     </div>
                     <ul class="list-group menus collapse in" id="collapseExample">
-                        <a href="<?php echo url('admin/category/index'); ?>" class="list-group-item">
+                        <a href="<?php echo url('admin/vegetable/index'); ?>" class="list-group-item">
                             <i class="fa fa-certificate" aria-hidden="true"></i>
-                            <span class="pull-right" href=""></span> 菜列表
+                            <span class="pull-right" href=""></span> 已处理订单
                         </a>
                     </ul>
                     <!--菜列表 end-->
 
                     <!--未处理订单-->
                     <div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                        <h4 class="panel-title">未处理订单</h4>
+                        <h4 class="panel-title">菜分格添加</h4>
                         <a class="panel-collapse" data-toggle="collapse" href="#collapseExample2" aria-expanded="true">
                             <i class="fa fa-chevron-circle-down"></i>
                         </a>
@@ -111,14 +111,14 @@
                     <ul class="list-group menus collapse in" id="collapseExample2">
                         <a href="<?php echo url('admin/Tag/index'); ?>" class="list-group-item">
                             <i class="fa fa-tags" aria-hidden="true"></i>
-                            <span class="pull-right"></span> 未处理订单
+                            <span class="pull-right"></span> 菜分格添加
                         </a>
                     </ul>
                     <!--未处理订单 end-->
 
                     <!--已处理订单-->
                     <div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
-                        <h4 class="panel-title">已处理订单</h4>
+                        <h4 class="panel-title">菜列表</h4>
                         <a class="panel-collapse" data-toggle="collapse" href="#collapseExample3" aria-expanded="true">
                             <i class="fa fa-chevron-circle-down"></i>
                         </a>
@@ -126,7 +126,7 @@
                     <ul class="list-group menus collapse in" id="collapseExample3">
                         <a href="<?php echo url('admin/article/index'); ?>" class="list-group-item">
                             <i class="fa fa-align-center" aria-hidden="true"></i>
-                            <span class="pull-right" href=""></span> 已处理订单
+                            <span class="pull-right" href=""></span> 菜列表添加
                         </a>
                         <a href="<?php echo url('admin/article/recycle'); ?>" class="list-group-item">
                             <i class="fa fa-recycle" aria-hidden="true"></i>
@@ -136,7 +136,7 @@
                     <!--已处理订单 end-->
 
                     <!--菜系添加-->
-                    <div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                    <!-- <div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
                         <h4 class="panel-title">菜系添加</h4>
                         <a class="panel-collapse" data-toggle="collapse" href="#collapseExample4" aria-expanded="true">
                             <i class="fa fa-chevron-circle-down"></i>
@@ -147,7 +147,7 @@
                             <i class="fa fa-link" aria-hidden="true"></i>
                             <span class="pull-right" href=""></span> 菜系添加
                         </a>
-                    </ul>
+                    </ul> -->
                     <!--菜系添加 end-->
                     <!--营业收入-->
                     <div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
@@ -171,14 +171,14 @@
 <ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
     <li>
         <a href=""><i class="fa fa-cogs"></i>
-            站点管理</a>
+            营业收入</a>
     </li>
     <li class="active">
-        <a href="">网站配置</a>
+        <a href="">营业收入</a>
     </li>
 </ol>
 <ul class="nav nav-tabs" role="tablist">
-    <li class="active"><a href="#tab1">网站配置</a></li>
+    <li class="active"><a href="#tab1">营业收入</a></li>
 </ul>
 <form action="" method="post">
     <div class="panel panel-default">
@@ -187,9 +187,8 @@
                 <thead>
                     <tr>
                         <th width="5%">编号</th>
-                        <th>配置名称</th>
-                        <th width="20%">配置值</th>
-                        <th>描述</th>
+                        <th>营业时间</th>
+                        <th>营业金额</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -197,9 +196,6 @@
                     <tr>
                         <td><?php echo ++$k; ?></td>
                         <td><?php echo $vo['websetName']; ?></td>
-                        <td>
-                            <input type="text" onblur="chang(this,<?php echo $vo['websetValue']; ?>,<?php echo $vo['websetId']; ?>)" class="form-control" value="<?php echo $vo['websetValue']; ?>">
-                        </td>
                         <td><?php echo $vo['websetdes']; ?></td>
                     </tr>
                     <?php endforeach; endif; else: echo "" ;endif; ?>
@@ -240,10 +236,7 @@
     </div>
     </div>
     <div class="master-footer" style="margin-top: 150px">
-        <a href="http://www.houdunwang.com">高端培训</a>
-        <a href="http://www.hdphp.com">开源框架</a>
-        <a href="http://bbs.houdunwang.com">后盾论坛</a>
-        <br> Powered by hdphp v2.0 © 2016-2022 www.hdphp.com
+        <br> 欢迎使用
     </div>
 </body>
 

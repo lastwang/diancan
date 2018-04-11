@@ -2,7 +2,7 @@
 <ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
     <li>
         <a href="{:url('index')}"><i class="fa fa-cogs"></i>
-            文章管理</a>
+            菜品管理</a>
     </li>
     <li class="active">
         <a href="{:url('recycle')}">回收站</a>
@@ -18,10 +18,10 @@
                 <thead>
                     <tr>
                         <th width="5%">编号</th>
-                        <th>文章名称</th>
-                        <th>文章作者</th>
-                        <th width="7%">排序</th>
-                        <th>所属分类</th>
+                        <th>菜品名称</th>
+                        <th>菜品图片</th>
+                        <th width="7%">价格</th>
+                      
                         <th>添加时间</th>
                         <th width="150">操作</th>
                     </tr>
@@ -31,11 +31,11 @@
                     <tr>
                         <td>{++$key}</td>
                         <td>{$vo['title']}</td>
-                        <td>{$vo['author']}</td>
+                        <td><img src="{$vo['thumb']}" class="img-responsive img-thumbnail" width="150" alt="" srcset=""></td>
                         <td>
                             <input type="text" onblur="changeSort(this,{$vo['articleid']},{$vo['sort']})" class="form-control" value="{$vo['sort']}">
                         </td>
-                        <td>{$vo['name']}</td>
+                        
                         <td>{$vo['sendtime']}</td>
                         <td>
                             <div class="btn-group">
@@ -58,7 +58,7 @@
     {$field->render()}
 </div>
 <script>
-    //修改排序
+    //修改价格
     function changeSort(obj, arc_id, sortid) {
         var sort = $(obj).val(); //obj.value;
         if (sort == sortid) {

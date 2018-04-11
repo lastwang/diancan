@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"C:\Thankphp\Thinkphp\public/../application/admin\view\tag\index.html";i:1512533019;s:63:"C:\Thankphp\Thinkphp\public/../application/admin\view\base.html";i:1522568921;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"C:\Thankphp\Thinkphp\public/../application/admin\view\tag\index.html";i:1523329978;s:63:"C:\Thankphp\Thinkphp\public/../application/admin\view\base.html";i:1523370564;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -86,24 +86,24 @@
         <div class="row">
             <div class="col-xs-12 col-sm-3 col-lg-2 left-menu">
                 <div class="panel panel-default" id="menus">
-                    <!--菜列表-->
+                    <!--已处理订单-->
                     <div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="border-top: 1px solid #ddd;border-radius: 0%">
-                        <h4 class="panel-title">菜列表</h4>
+                        <h4 class="panel-title">已处理订单</h4>
                         <a class="panel-collapse" data-toggle="collapse" href="#collapseExample" aria-expanded="true">
                             <i class="fa fa-chevron-circle-down"></i>
                         </a>
                     </div>
                     <ul class="list-group menus collapse in" id="collapseExample">
-                        <a href="<?php echo url('admin/category/index'); ?>" class="list-group-item">
+                        <a href="<?php echo url('admin/vegetable/index'); ?>" class="list-group-item">
                             <i class="fa fa-certificate" aria-hidden="true"></i>
-                            <span class="pull-right" href=""></span> 菜列表
+                            <span class="pull-right" href=""></span> 已处理订单
                         </a>
                     </ul>
                     <!--菜列表 end-->
 
                     <!--未处理订单-->
                     <div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                        <h4 class="panel-title">未处理订单</h4>
+                        <h4 class="panel-title">菜分格添加</h4>
                         <a class="panel-collapse" data-toggle="collapse" href="#collapseExample2" aria-expanded="true">
                             <i class="fa fa-chevron-circle-down"></i>
                         </a>
@@ -111,14 +111,14 @@
                     <ul class="list-group menus collapse in" id="collapseExample2">
                         <a href="<?php echo url('admin/Tag/index'); ?>" class="list-group-item">
                             <i class="fa fa-tags" aria-hidden="true"></i>
-                            <span class="pull-right"></span> 未处理订单
+                            <span class="pull-right"></span> 菜分格添加
                         </a>
                     </ul>
                     <!--未处理订单 end-->
 
                     <!--已处理订单-->
                     <div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
-                        <h4 class="panel-title">已处理订单</h4>
+                        <h4 class="panel-title">菜列表</h4>
                         <a class="panel-collapse" data-toggle="collapse" href="#collapseExample3" aria-expanded="true">
                             <i class="fa fa-chevron-circle-down"></i>
                         </a>
@@ -126,7 +126,7 @@
                     <ul class="list-group menus collapse in" id="collapseExample3">
                         <a href="<?php echo url('admin/article/index'); ?>" class="list-group-item">
                             <i class="fa fa-align-center" aria-hidden="true"></i>
-                            <span class="pull-right" href=""></span> 已处理订单
+                            <span class="pull-right" href=""></span> 菜列表添加
                         </a>
                         <a href="<?php echo url('admin/article/recycle'); ?>" class="list-group-item">
                             <i class="fa fa-recycle" aria-hidden="true"></i>
@@ -136,7 +136,7 @@
                     <!--已处理订单 end-->
 
                     <!--菜系添加-->
-                    <div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                    <!-- <div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
                         <h4 class="panel-title">菜系添加</h4>
                         <a class="panel-collapse" data-toggle="collapse" href="#collapseExample4" aria-expanded="true">
                             <i class="fa fa-chevron-circle-down"></i>
@@ -147,7 +147,7 @@
                             <i class="fa fa-link" aria-hidden="true"></i>
                             <span class="pull-right" href=""></span> 菜系添加
                         </a>
-                    </ul>
+                    </ul> -->
                     <!--菜系添加 end-->
                     <!--营业收入-->
                     <div class="panel-heading" role="button" data-toggle="collapse" href="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
@@ -171,16 +171,16 @@
 <ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
     <li>
         <a href="">
-            <i class="fa fa-cogs"></i> 标签管理
+            <i class="fa fa-cogs"></i> 菜风格管理
         </a>
     </li>
     <li class="active">
-        <a href="">标签列表</a>
+        <a href="">菜风格列表</a>
     </li>
 </ol>
 <ul class="nav nav-tabs" role="tablist">
-    <li class="active"><a href="">标签列表</a></li>
-    <li><a href="<?php echo url('admin/tag/store'); ?>">添加标签</a></li>
+    <li class="active"><a href="">菜风格列表</a></li>
+    <li><a href="<?php echo url('admin/tag/store'); ?>">添加菜风格</a></li>
 </ul>
 <form action="" method="post">
     <div class="panel panel-default">
@@ -189,7 +189,7 @@
                 <thead>
                     <tr>
                         <th width="80">编号</th>
-                        <th>标签名</th>
+                        <th>菜风格名</th>
                         <th width="200">操作</th>
                     </tr>
                 </thead>

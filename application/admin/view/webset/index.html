@@ -2,14 +2,14 @@
 <ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
     <li>
         <a href=""><i class="fa fa-cogs"></i>
-            站点管理</a>
+            营业收入</a>
     </li>
     <li class="active">
-        <a href="">网站配置</a>
+        <a href="">营业收入</a>
     </li>
 </ol>
 <ul class="nav nav-tabs" role="tablist">
-    <li class="active"><a href="#tab1">网站配置</a></li>
+    <li class="active"><a href="#tab1">营业收入</a></li>
 </ul>
 <form action="" method="post">
     <div class="panel panel-default">
@@ -18,9 +18,8 @@
                 <thead>
                     <tr>
                         <th width="5%">编号</th>
-                        <th>配置名称</th>
-                        <th width="20%">配置值</th>
-                        <th>描述</th>
+                        <th>营业时间</th>
+                        <th>营业金额</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -28,9 +27,6 @@
                     <tr>
                         <td>{++$k}</td>
                         <td>{$vo['websetName']}</td>
-                        <td>
-                            <input type="text" onblur="chang(this,{$vo['websetValue']},{$vo['websetId']})" class="form-control" value="{$vo['websetValue']}">
-                        </td>
                         <td>{$vo['websetdes']}</td>
                     </tr>
                     {/foreach}

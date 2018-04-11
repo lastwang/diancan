@@ -1,0 +1,59 @@
+{extend name="base"/} {block name="content"}
+<ol class="breadcrumb" style="background-color: #f9f9f9;padding:8px 0;margin-bottom:10px;">
+    <li>
+        <a href="{:url('index')}"><i class="fa fa-cogs"></i>
+            菜单管理</a>
+    </li>
+</ol>
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active"><a href="{:url('index')}">菜单管理</a></li>
+</ul>
+<form action="" method="post">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th width="5%">编号</th>
+                        <th>菜单名称</th>                    
+                        <th width="7%">价格</th>
+                        <th>下单时间</th>
+                        <th>订单桌子号</th>
+                        <th width="150">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</form>
+<script>
+    function changeSort(obj, arc_id, sortid) {
+        var sort = $(obj).val(); //obj.value;
+        if (sort == sortid) {
+            return;
+        } else {
+            $.post(
+                "{:url('admin/Article/changeSort')}", {
+                    sort: sort,
+                    articleid: arc_id
+                },
+                function(res) {
+                    if (res.code) {
+                        //执行成功的function
+                        require(['hdjs'], function(hdjs) {
+                            hdjs.message(res.msg, 'refresh', 'success');
+                        });
+                    } else {
+                        //执行失败的function
+                        // alert(res.msg);
+                        require(['hdjs'], function(hdjs) {
+                            hdjs.message(res.msg, 'back', 'error');
+                        });
+                    }
+                }, 'json');
+        }
+    }
+</script>{/block}
