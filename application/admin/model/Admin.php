@@ -19,9 +19,9 @@ class Admin extends Model
         if (!$validate->check($data)) {
             return ['valid'=>0,'msg'=>$validate->getError()];
         }
-
+        // halt(md5($data['password']));
         $userInfo=$this->where('username', $data['username'])
-        ->where('password', Crypt::encrypt($data['password']))
+        ->where('password', md5($data['password']))
         ->find();
         
         if(!$userInfo)

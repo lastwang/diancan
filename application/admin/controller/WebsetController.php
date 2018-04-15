@@ -14,7 +14,7 @@ class WebsetController extends Controller
     }
     public function index()
     {
-        $field = db('webset')->paginate(2);
+        $field = db('webset')->paginate(10);
         $this->assign('field',$field);
         return $this->fetch();
     }

@@ -59,20 +59,28 @@ class Article extends Model
     {
         $data = db('article')->alias('a')
             ->where('a.recovery',$isRecycle)
-            ->field('a.articleid,a.title,a.thumb,a.author,a.sort,a.sendtime,a.updatetime')
-            ->order('a.sort,a.sendtime,a.articleid')
+            ->field('a.articleid,a.title,a.thumb,a.author,a.price,a.sendtime,a.updatetime')
+            ->order('a.price,a.sendtime,a.articleid')
             ->paginate(5);
+        return $data;
+    }
+
+    public function getAll2()
+    {
+        $data = db('article')
+        ->where('recovery',2)
+        ->select();
         return $data;
     }
 
     public function changeSort($data)
     {
         $result=$this->validate([
-            'sort'=>'require|between:1,9999'
+            'price'=>'require|between:1,9999'
         ],
         [
-            'sort.require'=>'请输入排序',
-            'sort.between'=>'数字必须在1~9999之间'
+            'price.require'=>'请输入排序',
+            'price.between'=>'数字必须在1~9999之间'
         ])->save($data,[$this->pk=>$data['articleid']]);
         if($result)
         {

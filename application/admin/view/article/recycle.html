@@ -33,7 +33,7 @@
                         <td>{$vo['title']}</td>
                         <td><img src="{$vo['thumb']}" class="img-responsive img-thumbnail" width="150" alt="" srcset=""></td>
                         <td>
-                            <input type="text" onblur="changeSort(this,{$vo['articleid']},{$vo['sort']})" class="form-control" value="{$vo['sort']}">
+                            <input type="text" onblur="changeSort(this,{$vo['articleid']},{$vo['price']})" class="form-control" value="{$vo['price']}">
                         </td>
                         
                         <td>{$vo['sendtime']}</td>
@@ -66,7 +66,7 @@
         } else {
             $.post(
                 "{:url('admin/Article/changeSort')}", {
-                    sort: sort,
+                    price: sort,
                     articleid: arc_id
                 },
                 function(res) {

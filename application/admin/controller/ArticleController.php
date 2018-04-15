@@ -21,6 +21,41 @@ class ArticleController extends Controller
         return $this->fetch();
     }
 
+    public function index2()
+    {
+        $field = $this->db->getAll2();
+        // var_dump($field[0]);
+        // $data = "{'a':'b'}";
+        // halt(json_encode($field[0]));
+        // header('Content-Type:text/html;charset=utf-8');
+        $demo = array('data'=>$field);
+        // halt($demo);
+        
+        $data = json_encode($demo);
+        return preg_replace_callback('/\\\\u([0-9a-f]{4})/i', create_function('$matches', 'return iconv("UCS-2BE","UTF-8",pack("H*", $matches[1]));'), $data);
+  /*      return preg_replace("#\\\u([0-9a-f]{4})#ie", "iconv('UCS-2BE', 'UTF-8', pack('H4', '\\1'))", $data);*/
+    }
+
+    public function getData()
+    {
+        if(request()->isPost())
+        {
+            $myfile = fopen("c:/newfile.txt", "w") or die("Unable to open file!");
+           
+            $res =json_encode(input("post."));
+            $res = preg_replace_callback('/\\\\u([0-9a-f]{4})/i', create_function('$matches', 'return iconv("UCS-2BE","UTF-8",pack("H*", $matches[1]));'), $res);
+
+            fwrite($myfile, $res);
+            fclose($myfile);
+
+            $data=['msg'=>'ok','data'=>$res];
+
+            return json_encode($data);
+        }
+        $data=['msg'=>'error'];
+        return json_encode($data);
+    }
+
     public function store()
     {
         if(\request()->isPost())

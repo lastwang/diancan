@@ -13,7 +13,7 @@
 
 // 定义应用目录
 define('APP_PATH', __DIR__ . '/../application/');
-define('SITE_URL','http://www.blog.wang.com');
-define('HD_ROOT','http://www.blog.wang.com/static');
+define('SITE_URL','http://101.201.236.33/thinkphp/public/');
+define('HD_ROOT','http://101.201.236.33/thinkphp/public/index.php/static');
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/start.php';
