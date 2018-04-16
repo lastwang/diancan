@@ -49,14 +49,14 @@ class ArticleController extends Controller
             $res = json_encode(input('post.'));
             $result = json_decode($res);
             $resultArray=$this->db->getData1($result->data);
-            
+            $resultArray = json_encode($resultArray);
             // // $res =input("post.");
             // $this->db->getdata1(json_decode($res));
             $resultArray = preg_replace_callback('/\\\\u([0-9a-f]{4})/i', create_function('$matches', 'return iconv("UCS-2BE","UTF-8",pack("H*", $matches[1]));'), $resultArray);
             // $this->db->getData1($res);
             // fwrite($myfile, $res);
             // fclose($myfile);
-            return json_encode($resultArray);
+            return $resultArray;
         }
         $data=["state"=>0,'msg'=>'error'];
         return json_encode($data);
