@@ -39,36 +39,26 @@ class ArticleController extends Controller
     public function getData()
     {
         // 指定允许其他域名访问  
-        header('Access-Control-Allow-Origin:*');  
-
+        // header('Access-Control-Allow-Origin:*');  
         if(request()->isPost())
         {            
             // $request = request();
             // return $request;
       
-            $myfile = fopen("c:/newfile.txt", "w") or die("Unable to open file!");
-            
+            // $myfile = fopen("d:/newfile.txt", "w") or die("Unable to open file!");
             $res = json_encode(input('post.'));
             $result = json_decode($res);
-
-            $this->db->getData1($result->data);
-
-            dump("json字符串");
-            dump($result->data);
+            $resultArray=$this->db->getData1($result->data);
+            
             // // $res =input("post.");
             // $this->db->getdata1(json_decode($res));
-            // $res = preg_replace_callback('/\\\\u([0-9a-f]{4})/i', create_function('$matches', 'return iconv("UCS-2BE","UTF-8",pack("H*", $matches[1]));'), $res);
-            // // $this->db->getData1($res);
-            fwrite($myfile, $res);
-            fclose($myfile);
-
-           
-
-            $data=['msg'=>'ok','data'=>$result];
-
-            return json_encode($data);
+            $resultArray = preg_replace_callback('/\\\\u([0-9a-f]{4})/i', create_function('$matches', 'return iconv("UCS-2BE","UTF-8",pack("H*", $matches[1]));'), $resultArray);
+            // $this->db->getData1($res);
+            // fwrite($myfile, $res);
+            // fclose($myfile);
+            return json_encode($resultArray);
         }
-        $data=['msg'=>'error'];
+        $data=["state"=>0,'msg'=>'error'];
         return json_encode($data);
     }
 

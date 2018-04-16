@@ -19,12 +19,12 @@ class Article extends Model
 
     protected function setSendTimeAttr($value)
     {
-        return date("Y-m-d:h:ia");
+        return date("Y-m-d h:i:s");
     }
 
     protected function setUpdateTimeAttr($value)
     {
-        return date("Y-m-d:h:ia");        
+        return date("Y-m-d h:i:s");        
     }
 
     public function store($data)
@@ -75,23 +75,43 @@ class Article extends Model
 
     public function getData1($data)
     {
-        $time=date("Y/m/d:h:ia");
-        dump($data);
         $data = json_decode($data,true);
-        $this->where
-        // dump($a);
-        // $data=json_encode($data);
-        // $data=substr($data,1,-1);
-        // $data=stripslashes($data);
-        // dump($data);
-        // $data=json_decode($data,true);
-        foreach ($data as $value) {
-            $this->$value['id']
+        $result = $this->where("recovery",2)->select();
+        $money = 0;
+        $t=null;
+        $t=db("table")->where("iskong",0)->find();
+        if($t == null)
+        {
+            return ["state"=>0,"msg"=>"桌子已经满了,请等待"];
         }
-        halt($data);
-        foreach ($data as $key => $value) {
-            halt($key);
+        $tary = $t;
+        // halt($t);
+        foreach($result as $value)
+        {
+            foreach($data as $k=>$v)
+            {
+                if($value->data["articleid"]==$v["id"])
+                {
+                    $money += $value->data["price"]*$v["number"];
+                }
+            }
         }
+        $ti = date("Y-m-d h:i:s"); 
+        // halt($ti);
+        if($money != 0)
+        {
+            $tmp = ['websetName'=>$ti,'websetdes'=>$money];
+
+            $res=db("webset")->insert($tmp);
+        }
+
+        foreach($data as $v)
+        {
+            $in = ["table_id"=>$tary["id"],"menu_id"=>$v['id'],"sendtime"=>$ti,"number"=>$v['number']];
+            db("order")->insert($in,true);
+            db("table")->update(["id"=>$tary["id"],"iskong"=>1]);
+        }
+        return ["state"=>1,"msg"=>"下单成功","price"=>$money];
     }
 
         /**
