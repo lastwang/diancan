@@ -20,17 +20,52 @@
                         <th width="7%">数量</th>
                         <th>下单时间</th>
                         <th>订单桌子号</th>
+                        <th width="7%">是否付钱</th>
                         <th width="150">操作</th>
                     </tr>
                 </thead>
                 <tbody>
-
+                    {foreach name='field' key='key' item='vo'}
+                    <tr>
+                        <td>{++$key}</td>
+                        <td>{$vo['title']}</td>
+                        <td>{$vo['price']}</td>
+                        <td>{$vo['number']}</td>
+                        <td>{$vo['sendtime']}</td>
+                        <td>{$vo['table_id']}</td>
+                        {if condition = "$vo['isfuqian']==0"}
+                        <td>未付钱</td>
+                        {else/}
+                        <td>已付钱</td>
+                        {/if}
+                        <td>
+                            <div class="btn-group">
+                                <button data-toggle="dropdown" class="btn btn-primary btn-xs dropdown-toggle">操作 <span class="caret"></span></button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="javascript:;" onclick="del({$vo['table_id']})">已经吃完</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    {/foreach}
                 </tbody>
             </table>
         </div>
     </div>
 </form>
+<div class="pagination pagination-sm pull-right">
+    {$field->render()}
+</div>
 <script>
+    function del(table_id) {
+        console.log(table_id);
+        require(['hdjs'], function(hdjs) {
+            hdjs.confirm('确定删除吗?', function() {
+                window.location.href = "{:url('admin/Vegetable/pass')}" + "?table_id=" + table_id;
+            })
+        })
+    }
+
     function changeSort(obj, arc_id, sortid) {
         var sort = $(obj).val(); //obj.value;
         if (sort == sortid) {
