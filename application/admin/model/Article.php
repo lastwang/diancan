@@ -19,12 +19,12 @@ class Article extends Model
 
     protected function setSendTimeAttr($value)
     {
-        return date("Y-m-d");
+        return date("Y-m-d:h:ia");
     }
 
     protected function setUpdateTimeAttr($value)
     {
-        return date("Y-m-d");        
+        return date("Y-m-d:h:ia");        
     }
 
     public function store($data)
@@ -71,6 +71,51 @@ class Article extends Model
         ->where('recovery',2)
         ->select();
         return $data;
+    }
+
+    public function getData1($data)
+    {
+        $time=date("Y/m/d:h:ia");
+        dump($data);
+        $data = json_decode($data,true);
+        $this->where
+        // dump($a);
+        // $data=json_encode($data);
+        // $data=substr($data,1,-1);
+        // $data=stripslashes($data);
+        // dump($data);
+        // $data=json_decode($data,true);
+        foreach ($data as $value) {
+            $this->$value['id']
+        }
+        halt($data);
+        foreach ($data as $key => $value) {
+            halt($key);
+        }
+    }
+
+        /**
+     * 指定位置插入字符串
+     * @param $str  原字符串
+     * @param $i    插入位置
+     * @param $substr 插入字符串
+     * @return string 处理后的字符串
+     */
+    function insertToStr($str, $i, $substr){
+        //指定插入位置前的字符串
+        $startstr="";
+        for($j=0; $j<$i; $j++){
+            $startstr .= $str[$j];
+        }
+        //指定插入位置后的字符串
+        // $laststr="";
+        // for ($j=$i; $j<strlen($str); $j++){
+        //     $laststr .= $str[$j];
+        // }
+        //将插入位置前，要插入的，插入位置后三个字符串拼接起来
+        $str = $startstr . $substr . $laststr;
+        //返回结果
+        return $str;
     }
 
     public function changeSort($data)

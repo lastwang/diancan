@@ -2,7 +2,7 @@
 
 namespace app\admin\controller;
 use app\admin\model;
-
+use think\Request;
 use think\Controller;
 
 class ArticleController extends Controller
@@ -38,17 +38,33 @@ class ArticleController extends Controller
 
     public function getData()
     {
-        if(request()->isPost())
-        {
-            $myfile = fopen("c:/newfile.txt", "w") or die("Unable to open file!");
-           
-            $res =json_encode(input("post."));
-            $res = preg_replace_callback('/\\\\u([0-9a-f]{4})/i', create_function('$matches', 'return iconv("UCS-2BE","UTF-8",pack("H*", $matches[1]));'), $res);
+        // 指定允许其他域名访问  
+        header('Access-Control-Allow-Origin:*');  
 
+        if(request()->isPost())
+        {            
+            // $request = request();
+            // return $request;
+      
+            $myfile = fopen("c:/newfile.txt", "w") or die("Unable to open file!");
+            
+            $res = json_encode(input('post.'));
+            $result = json_decode($res);
+
+            $this->db->getData1($result->data);
+
+            dump("json字符串");
+            dump($result->data);
+            // // $res =input("post.");
+            // $this->db->getdata1(json_decode($res));
+            // $res = preg_replace_callback('/\\\\u([0-9a-f]{4})/i', create_function('$matches', 'return iconv("UCS-2BE","UTF-8",pack("H*", $matches[1]));'), $res);
+            // // $this->db->getData1($res);
             fwrite($myfile, $res);
             fclose($myfile);
 
-            $data=['msg'=>'ok','data'=>$res];
+           
+
+            $data=['msg'=>'ok','data'=>$result];
 
             return json_encode($data);
         }

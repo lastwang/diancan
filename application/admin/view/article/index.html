@@ -87,4 +87,52 @@
         }
     }
 </script>
+<script>
+    $(function () {
+        // var fso = new ActiveXObject("Scripting.FileSystemObject");
+
+        // var f1 = fso.GetFile("d:\\111.json");
+        // alert("we");
+        var obj = [
+            { "id": 6, "number": 1 },
+            { "id": 7 ,"number": 2 }
+        ];
+        // $.getJSON("__STATIC__/111.json", function (data) {
+        //         //data就是json对象了，不需要再转换
+        //         alert(typeof(data));
+        //         for(var ob in data)
+        //         {
+        //             console.log(ob);
+        //             console.log(data[ob]);
+        //         }
+        //         $.post({
+        //     url:'http://101.201.236.33/Thinkphp/public/index.php/admin/article/getData',
+        //     data: data,
+        //     success:function(data){
+        //         alert(data);
+        //     },
+        //     // error:function(){
+        //     //     alert("error");
+        //     // }
+        // })
+        //     });
+        
+        $.post({
+            url: 'http://101.201.236.33/Thinkphp/public/index.php/admin/article/getData',
+            data: {data:JSON.stringify(obj)},
+            dataType:"json",
+            success: function (data) {
+                alert(data);
+            },
+            error:function(data){
+                console.log("error");
+                for(var i in data)
+                {
+                    console.log(data[i]);
+                }
+            }
+        })
+
+    })
+</script>
 {/block}
