@@ -32,7 +32,6 @@ class VegetableController extends Controller
         }
         else
         {
-            halt($res1."dsadasd".$res2);
             $this->error("操作失败");
             exit;
         }

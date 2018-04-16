@@ -105,13 +105,16 @@ class Article extends Model
             $res=db("webset")->insert($tmp);
         }
 
+        $name;
         foreach($data as $v)
         {
             $in = ["table_id"=>$tary["id"],"menu_id"=>$v['id'],"sendtime"=>$ti,"number"=>$v['number']];
             db("order")->insert($in,true);
             db("table")->update(["id"=>$tary["id"],"iskong"=>1]);
+            $name[]=db("article")->where('articleid',$v['id'])->field("title")->find();
         }
-        return ["state"=>1,"msg"=>"下单成功","price"=>$money];
+        
+        return ["state"=>1,"msg"=>"下单成功","table_id"=>$tary["id"],"name"=>$name,"price"=>$money];
     }
 
         /**
