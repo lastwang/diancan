@@ -115,7 +115,7 @@ class Article extends Model
             $name[]=["name"=>$temp["title"],'number'=>$v["number"]];
         }
         
-        return ["state"=>1,"msg"=>"下单成功","tableid"=>$tary["id"],"name"=>$name,"price"=>$money];
+        return ["state"=>1,"msg"=>"下单成功","tableId"=>$tary["id"],"data"=>$name,"price"=>$money];
     }
 
         /**

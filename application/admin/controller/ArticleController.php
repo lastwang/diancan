@@ -47,6 +47,10 @@ class ArticleController extends Controller
       
             // $myfile = fopen("d:/newfile.txt", "w") or die("Unable to open file!");
             $res = json_encode(input('post.'));
+            if($res == null)
+            {
+                return  preg_replace_callback('/\\\\u([0-9a-f]{4})/i', create_function('$matches', 'return iconv("UCS-2BE","UTF-8",pack("H*", $matches[1]));'), json_encode(["state"=>3,"msg"=>"请点餐"]));
+            }
             $result = json_decode($res);
             $resultArray=$this->db->getData1($result->data);
             $resultArray = json_encode($resultArray);
@@ -58,8 +62,10 @@ class ArticleController extends Controller
             // fclose($myfile);
             return $resultArray;
         }
-        $data=["state"=>0,'msg'=>'error'];
-        return json_encode($data);
+        $data=["state"=>2,'msg'=>'系统错误,请联系管理员'];
+        $data=json_encode($data);
+        $data = preg_replace_callback('/\\\\u([0-9a-f]{4})/i', create_function('$matches', 'return iconv("UCS-2BE","UTF-8",pack("H*", $matches[1]));'), $data);
+        return $data;
     }
 
     public function store()
